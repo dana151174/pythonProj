@@ -1,0 +1,53 @@
+PASS: new car has 50 liters fuel, 2023-01-22 21:45:08.636793
+FAIL: assert 50 == 60, 2023-01-22 21:49:49.206119
+PASS: test_something passed with args: 50, 2023-01-22 21:50:24.180733
+PASS: with gear level 3 the speed is 90, 2023-01-22 22:02:01.121659
+FAIL: with gear_level 3 the speed should be 90 90 != 80, 2023-01-22 22:02:20.799489
+PASS: with gear level 0 the car starts, 2023-01-22 22:04:40.153702
+PASS: Exception was raised when the car starts in gear level 5, 2023-01-22 22:16:23.570640
+FAIL: Exception was not raised when the car starts in gear level 5, 2023-01-22 22:17:14.892076
+PASS: when the car drives the gear level is 1, 2023-01-22 22:24:32.238649
+PASS: after the car drives 1000 the fuel is 0, 2023-01-22 22:27:41.542524
+FAIL: when the car drives 1000 km the fuel should be 0 - 10.0 != 0, 2023-01-22 22:29:16.241929
+PASS: Exception was thrown after trying to drive without fuel, 2023-01-22 22:38:32.685208
+PASS: with gear level 0 the car starts, 2023-01-22 22:43:17.662746
+PASS: with gear level 0 the car starts, 2023-01-22 22:51:26.604206
+PASS: Exception was raised when the car starts in gear level 5, 2023-01-22 22:53:38.436023
+PASS: Exception was raised when the car starts in gear level 5, 2023-01-22 22:56:32.281887
+PASS: after stopping the gear level is 0, 2023-01-22 23:01:40.995368
+FAIL: the gear level should be 0 after stopping - assert 0 == 1, 2023-01-22 23:01:58.152068
+PASS: after stopping the gear level is 0, 2023-01-22 23:19:24.220061
+PASS: after stopping the speed is 0, 2023-01-22 23:21:39.467843
+PASS: the car can drive 500 kl with 50 l fuel, 2023-01-22 23:26:34.387951
+F : the car should be able to complete 500 kl with 50 l fuel - assert True == False, 2023-01-22 23:29:54.302486
+PASS: Exception was raised when the car starts in gear level 5, 2023-01-22 23:33:05.510622
+PASS: with 50 l max distance is 1000 km, 2023-01-22 23:40:19.882192
+FAIL: the max distance should be 1000, 2023-01-22 23:41:00.343274
+FAIL: the car should be able to complete 500 kl with 50 l fuel - assert True == False, 2023-01-22 23:42:00.878580
+PASS: Exception was raised when the car starts in gear level 5, 2023-01-23 09:09:51.100638
+PASS: Exception was raised when the car starts in gear level 5, 2023-01-23 09:28:00.322638
+FAIL: the max distance should be 1000 - assert 1000 == 1200, 2023-01-23 09:52:59.253331
+PASS: with 50 l fuel max distance is 1000 km, 2023-01-23 09:53:11.934718
+FAIL: the car should be able to complete 500 kl with 50 l fuel - assert True == False, 2023-01-23 09:53:17.572132
+PASS: the car can drive 500 kl with 50 l fuel, 2023-01-23 09:53:23.104767
+PASS: after stopping the speed is 0, 2023-01-23 09:53:27.725941
+PASS: Exception was thrown after trying to drive without fuel, 2023-01-23 10:22:34.817679
+PASS: after the car drives 1000 km the fuel is 0, 2023-01-23 10:22:34.819403
+PASS: when the car drives the gear level is 1, 2023-01-23 10:22:34.821236
+PASS: with gear level 3 the speed is 90, 2023-01-23 10:22:34.822997
+PASS: new car has 50 liters fuel, 2023-01-23 10:22:34.824721
+PASS: with gear level 0 the car starts, 2023-01-23 10:22:34.826545
+PASS: Exception was raised when the car starts in gear level 5, 2023-01-23 10:22:34.828311
+PASS: tPASS: new car has 50 liters fuel, 2023-01-23 10:22:34.832202
+PASS: with gear level 0 the car starts, 2023-01-23 10:22:34.833806
+PASS: Exception was raised when the car starts in gear level 5, 2023-01-23 10:22:34.835779
+PASS: after stopping the gear level is 0, 2023-01-23 10:22:34.837586
+PASS: after stopping the speed is 0, 2023-01-23 10:22:34.839337
+PASS: the car can drive 500 kl with 50 l fuel, 2023-01-23 10:22:34.841024
+FAIL: the car should be able to complete 500 kl with 50 l fuel - assert True == False
+ +  where True = <bound method Car.has_enough_fuel of <CarProject.car.Car object at 0x000001ABA0EE46C8>>(500)
+ +    where <bound method Car.has_enough_fuel of <CarProject.car.Car object at 0x000001ABA0EE46C8>> = <CarProject.car.Car object at 0x000001ABA0EE46C8>.has_enough_fuel, 2023-01-23 10:22:34.842657
+PASS: with 50 l fuel max distance is 1000 km, 2023-01-23 10:22:34.844484
+FAIL: the max distance should be 1000 - assert 1000 == 1200
+ +  where 1000 = <bound method Car.calc_max_distance of <CarProject.car.Car object at 0x000001ABA0EE3EC8>>()
+ +    where <bound method Car.calc_max_distance of <CarProject.car.Car object at 0x000001ABA0EE3EC8>> = <CarProject.car.Car object at 0x000001ABA0EE3EC8>.calc_max_distance, 2023-01-23 10:22:34.848260
